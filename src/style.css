@@ -1,0 +1,96 @@
+.logotip {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.header {
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.info-block {
+    text-align: center;
+    width: 900px;
+    display: block;
+    margin: auto;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-weight: 200px;
+    margin: auto;
+    background-color: whitesmoke;
+    font-weight: 600;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.footer {
+    background: repeating-linear-gradient(45deg, #f5d142 0px, #f5d142 50px,  #f59e42 50px, #f59e42 100px);
+    color: black;
+    font-weight: bold;
+}
+
+.info-block:hover {
+    border-radius: 24px;
+    border: 1px solid black;
+    background:
+    linear-gradient(
+      45deg,
+      #4158d0 0%,
+      #4158d0 40%,
+      #f55742 40%,
+      #f55742 90%,
+      #f55742 100%
+    );
+    color: #f5d142;
+    font-weight: bold;
+}
+
+
+.name {
+    text-align: center;
+}
+
+.border {
+    border-bottom: 2px solid black;
+}
+
+.cartinki {
+    border-radius: 25px;
+}
+
+img {
+   filter: blur(10px);
+}
+
+.info-block img:hover {
+    filter: none;
+    cursor: pointer;
+}
+
+.logotip:hover {
+    filter: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.interest {
+    border-radius: 15px;
+    border: none;
+    background-color: #f55742;
+    color: #f5d142;
+    width: 140px;
+    height: 50px;
+    margin: auto;
+    line-height: 1.2;
+}
