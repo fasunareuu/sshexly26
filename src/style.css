@@ -75,6 +75,7 @@ img {
     filter: none;
     cursor: pointer;
     transition: 2.3s;
+    transform: scale(1.1);
 }
 
 .logotip:hover {
